@@ -73,14 +73,14 @@ export const Header = forwardRef<
       <div className="flex items-center gap-5 lg:hidden">
         <MobileNavigation />
         <Link href="/" aria-label="Home">
-          Frog components
+          <Logo />
+          <p>frog-components</p>
         </Link>
       </div>
       <div className="flex items-center gap-5">
         <div className="hidden md:block md:h-5 md:w-px md:bg-zinc-900/10 md:dark:bg-white/15" />
         <div className="flex gap-4">
           <MobileSearch />
-          <ThemeToggle />
         </div>
       </div>
     </motion.div>
