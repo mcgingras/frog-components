@@ -1,0 +1,10 @@
+{
+  "name": "design-component-library",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/components",
+    "packages/docs"
+  ]
+}

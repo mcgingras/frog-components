@@ -1,0 +1,82 @@
+import { Button } from 'frog-components';
+
+
+export const metadata = {
+  title: 'Button',
+  description:
+    'Button component.',
+}
+
+# Button
+
+Button component.
+
+### Properties
+
+<Properties>
+  <Property name="children" type="string">
+    The text of the button to be rendered.
+  </Property>
+  <Property name="variant?" type="'primary' | 'strong' | 'borderless'">
+    The stylistic variant of the button.
+  </Property>
+  <Property name="icon?" type="React.ReactNode">
+    Icon to be displayed on the button.
+  </Property>
+</Properties>
+
+---
+
+## Variants
+
+<Row>
+  <Col fullWidth>
+
+    This endpoint allows you to retrieve a paginated list of all your attachments (in a conversation if a conversation id is provided). By default, a maximum of ten attachments are shown per page.
+
+    <CodeGroup>
+        ```js
+        <Button>Primary</Button>
+        <Button variant="strong">Strong</Button>
+        <Button variant="borderless">Borderless</Button>
+        ```
+    </CodeGroup>
+
+    <ComponentDisplay>
+        <div className="flex flex-row space-x-2">
+        <Button variant="primary">Primary</Button>
+        <Button variant="strong">Strong</Button>
+        <Button variant="borderless">Borderless</Button>
+        </div>
+    </ComponentDisplay>
+
+  </Col>
+</Row>
+
+---
+
+## States
+
+<Row>
+  <Col fullWidth>
+
+    This endpoint allows you to retrieve a paginated list of all your attachments (in a conversation if a conversation id is provided). By default, a maximum of ten attachments are shown per page.
+
+    <CodeGroup>
+        ```js
+        <Button>Primary</Button>
+        <Button>Primary</Button>
+        <Button>Primary</Button>
+        ```
+    </CodeGroup>
+
+    <ComponentDisplay>
+        <div className="flex flex-row space-x-2">
+        <Button>Primary</Button>
+        <Button>Secondary</Button>
+        <Button>Tertiary</Button>
+        </div>
+    </ComponentDisplay>
+
+  </Col>
+</Row>
